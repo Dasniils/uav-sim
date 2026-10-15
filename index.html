@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12171b">
+  <meta name="description" content="UAV SIM — симулятор БПЛА на Unreal Engine 5. Обучение пилотированию, реалистичная физика, телеметрия, динамическая погода и виртуальные испытания. ООО «АвиаСим Плюс».">
+  <title>UAV SIM — пространство для ваших полётов</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://dasniils.github.io/uav-sim/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="UAV SIM — пространство для ваших полётов">
+  <meta property="og:description" content="Тренируйте пилотирование, изучайте телеметрию и испытывайте идеи в симуляторе БПЛА на Unreal Engine 5.">
+  <meta property="og:url" content="https://dasniils.github.io/uav-sim/">
+  <meta property="og:image" content="https://dasniils.github.io/uav-sim/assets/siberia.webp">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#" aria-label="UAV SIM — на главную">
+        <svg class="brand-mark" viewBox="0 0 36 36" fill="none" aria-hidden="true"><path d="M4 4h9v5H9v4H4V4Zm19 0h9v9h-5V9h-4V4ZM4 23h5v4h4v5H4v-9Zm23 0h5v9h-9v-5h4v-4Z" fill="currentColor"/><path d="m11 18 7-7 7 7-7 7-7-7Z" fill="currentColor"/></svg>
+        <span>UAV<span class="brand-light">SIM</span><small>АВИАСИМ ПЛЮС</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span class="sr-only">Открыть меню</span></button>
+      <nav id="main-nav" class="main-nav" aria-label="Главное меню">
+        <a href="#capabilities">Возможности</a><a href="#locations">Локации</a><a href="#equipment">Оборудование</a><a href="#project">О проекте</a>
+      </nav>
+      <a class="header-contact" href="#contact">Связаться <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/hero.webp" alt="Заснеженные горы и долины в симуляторе UAV SIM" width="827" height="322" fetchpriority="high">
+      <div class="hero-shade"></div>
+      <div class="container hero-inner">
+        <div class="eyebrow hero-eyebrow"><span class="status-dot"></span> UAV SIM <span class="eyebrow-sep">/</span> СИМУЛЯТОР БПЛА</div>
+        <h1 id="hero-title">Учитесь летать.<br>Испытывайте <em>идеи.</em></h1>
+        <p class="hero-description">Реалистичная физика полёта, разнообразие ландшафтов и инструменты виртуальных испытаний. Пространство для пилотов, преподавателей и разработчиков.</p>
+        <div class="hero-actions"><a class="button button-orange" href="#capabilities">Изучить симулятор <span aria-hidden="true">↗</span></a><a class="hero-secondary" href="#locations">Смотреть локации <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-bottom"><span>РАЗРАБОТАНО НА UNREAL ENGINE 5</span><span class="hero-coordinate">СИБИРЬ <span aria-hidden="true">↗</span> ВНУТРИ СИМУЛЯТОРА</span></div>
+      </div>
+      <div class="hero-corner corner-tl" aria-hidden="true"></div><div class="hero-corner corner-br" aria-hidden="true"></div>
+    </section>
+
+    <div class="facts-strip"><div class="container facts-grid">
+      <div><strong>6-DOF</strong><span>физика полёта</span></div><div><strong>4</strong><span>виртуальные локации</span></div><div><strong>5</strong><span>погодных режимов</span></div><div><strong>3</strong><span>типа дронов</span></div>
+    </div></div>
+
+    <section class="section container" id="capabilities" aria-labelledby="capabilities-title">
+      <div class="section-top"><span class="eyebrow">01 / ВОЗМОЖНОСТИ</span><span class="section-note">ПРАКТИКА. АНАЛИЗ. ИССЛЕДОВАНИЯ.</span></div>
+      <div class="intro-grid"><h2 id="capabilities-title">От первого взлёта<br>до новых решений.</h2><p class="intro-text">UAV SIM — программный комплекс для симуляции полётов беспилотных летательных аппаратов. Он объединяет обучение пилотированию, работу с полётными данными и среду для проверки алгоритмов управления.</p></div>
+      <div class="purpose-grid">
+        <article class="purpose"><span class="purpose-number">01</span><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M9 24h30M24 9v30M9 9l30 30M39 9 9 39"/><circle cx="24" cy="24" r="7"/><circle cx="9" cy="9" r="5"/><circle cx="39" cy="9" r="5"/><circle cx="9" cy="39" r="5"/><circle cx="39" cy="39" r="5"/></svg><h3>Осваивайте управление</h3><p>Тренируйте взлёт, маневрирование и прохождение контрольных точек. Выбирайте гоночный, грузовой или разведывательный дрон.</p></article>
+        <article class="purpose"><span class="purpose-number">02</span><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M6 6v36h36M10 28l9-12 9 8 12-14M10 34l10-7 9 6 11-7"/></svg><h3>Анализируйте полёт</h3><p>Собирайте данные об ускорениях, скорости и угловом движении. Сопоставляйте действия оператора с поведением аппарата.</p></article>
+        <article class="purpose"><span class="purpose-number">03</span><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M8 12h12l8 12-8 12H8M28 12h12M28 36h12M35 7l5 5-5 5M35 31l5 5-5 5"/><circle cx="8" cy="12" r="3"/><circle cx="8" cy="36" r="3"/></svg><h3>Проверяйте гипотезы</h3><p>Записывайте траектории и управляющие воздействия для исследований автономного полёта. Модуль автономного управления работает в тестовом режиме.</p></article>
+      </div>
+    </section>
+
+    <section class="locations-section" id="locations" aria-labelledby="locations-title">
+      <div class="container">
+        <div class="section-top"><span class="eyebrow">02 / СРЕДА ПОЛЁТА</span><span class="section-note">КАДРЫ ИЗ UAV SIM</span></div>
+        <div class="locations-heading"><h2 id="locations-title">Меняйте горизонт.</h2><p>Снежные хребты, песчаные дюны и вулканические долины. Исследуйте четыре среды и выбирайте условия полёта.</p></div>
+        <div class="location-tabs" role="tablist" aria-label="Виртуальные локации">
+          <button id="tab-caucasus" role="tab" aria-selected="true" aria-controls="location-panel" data-location="caucasus">01 <span>Кавказ</span><span class="tab-arrow" aria-hidden="true">↗</span></button>
+          <button id="tab-siberia" role="tab" aria-selected="false" aria-controls="location-panel" tabindex="-1" data-location="siberia">02 <span>Сибирь</span><span class="tab-arrow" aria-hidden="true">↗</span></button>
+          <button id="tab-gobi" role="tab" aria-selected="false" aria-controls="location-panel" tabindex="-1" data-location="gobi">03 <span>Пустыня Гоби</span><span class="tab-arrow" aria-hidden="true">↗</span></button>
+          <button id="tab-kamchatka" role="tab" aria-selected="false" aria-controls="location-panel" tabindex="-1" data-location="kamchatka">04 <span>Вулканическая пустошь</span><span class="tab-arrow" aria-hidden="true">↗</span></button>
+        </div>
+        <div class="location-panel" id="location-panel" role="tabpanel" aria-labelledby="tab-caucasus" tabindex="0">
+          <button class="location-image-button gallery-trigger" type="button" data-gallery="caucasus" aria-label="Увеличить скриншот локации Кавказ"><img id="location-image" src="assets/caucasus.webp" alt="Горная локация Кавказ в UAV SIM" width="824" height="319" loading="lazy"><span class="image-expand" aria-hidden="true">⤢</span></button>
+          <div class="location-caption"><div><span class="eyebrow" id="location-label">ГОРНЫЙ ЛАНДШАФТ</span><h3 id="location-name">Кавказ</h3></div><p id="location-description">Скалистые массивы, травянистые склоны и объёмный туман. Пространство для тренировки маневрирования в горном рельефе.</p><span class="image-tag">СКРИНШОТ СИМУЛЯТОРА</span></div>
+        </div>
+        <div class="weather-row"><span>УСЛОВИЯ ПОЛЁТА</span><ul aria-label="Погодные режимы"><li>Ясно</li><li>Дождь</li><li>Снег</li><li>Туман</li><li>Шторм</li></ul><p>Ветер, осадки и видимость<br>настраиваются в симуляторе.</p></div>
+      </div>
+    </section>
+
+    <section class="section container system-section" aria-labelledby="system-title">
+      <div class="section-top"><span class="eyebrow">03 / ВНУТРИ СИМУЛЯТОРА</span><span class="section-note">МОДУЛЬНАЯ АРХИТЕКТУРА / UE5</span></div>
+      <div class="system-grid">
+        <div class="system-visual"><button class="gallery-trigger screenshot-button" type="button" data-gallery="interface" aria-label="Увеличить главное меню UAV SIM"><img src="assets/interface.webp" alt="Главное меню UAV SIM: выбор дрона, локации и погоды" width="826" height="526" loading="lazy"><span class="image-expand" aria-hidden="true">⤢</span></button><span class="visual-caption">UAV SIM v1.0.0 / ИНТЕРФЕЙС ПРИЛОЖЕНИЯ</span></div>
+        <div class="system-copy"><h2 id="system-title">Всё для осмысленной<br>практики.</h2><div class="feature-accordion">
+          <details open><summary>Физика с шестью степенями свободы <span aria-hidden="true">+</span></summary><p>Модель учитывает массу, момент инерции, центровку и аэродинамику. Четыре канала управления: газ, рыскание, тангаж и крен.</p></details>
+          <details><summary>Телеметрия и полётные данные <span aria-hidden="true">+</span></summary><p>Запись линейных ускорений, вектора скорости и угловых скоростей. Данные ИМУ и действия оператора используются для анализа полёта и формирования датасетов.</p></details>
+          <details><summary>Обучение и редактор сценариев <span aria-hidden="true">+</span></summary><p>Проходите маршрут через контрольные ворота и отслеживайте время. Редактор сценариев и миссий позволяет создавать собственные задания.</p></details>
+          <details><summary>Нештатные ситуации <span aria-hidden="true">+</span></summary><p>Исследуйте поведение аппарата при потере связи, отказах управления и сложной погоде. Настройки среды позволяют изменять ветер, осадки и видимость.</p></details>
+        </div></div>
+      </div>
+    </section>
+
+    <section class="equipment-section" id="equipment" aria-labelledby="equipment-title">
+      <div class="container">
+        <div class="section-top"><span class="eyebrow">04 / ВАШ СПОСОБ УПРАВЛЕНИЯ</span><span class="section-note">ФОТОГРАФИИ ТЕСТИРОВАНИЯ</span></div>
+        <div class="intro-grid"><h2 id="equipment-title">Знакомый пульт.<br>Новая среда.</h2><p class="intro-text">Начните с клавиатуры или геймпада, подключите пульт радиоуправления и исследуйте полёт в VR. В проекте протестированы разные варианты периферии.</p></div>
+        <div class="equipment-grid">
+          <article class="equipment-card"><button class="gallery-trigger equipment-photo" type="button" data-gallery="vr" aria-label="Увеличить фотографию тестирования в VR"><img src="assets/vr-test.webp" alt="Тестирование UAV SIM с VR-гарнитурой и пультом управления" width="1280" height="960" loading="lazy"><span class="photo-index">01 / ПОГРУЖЕНИЕ</span><span class="image-expand" aria-hidden="true">⤢</span></button><div class="equipment-card-copy"><h3>Пульт и виртуальная реальность</h3><p>Управление с пультов FrSky и Radiomaster. Протестированы Radiomaster TX12 MKII и VR-режим с отслеживанием поворотов головы.</p></div></article>
+          <article class="equipment-card"><button class="gallery-trigger equipment-photo" type="button" data-gallery="gamepad" aria-label="Увеличить фотографию тестирования с геймпадом"><img src="assets/gamepad.webp" alt="Тестирование симулятора UAV SIM с игровым геймпадом" width="1280" height="960" loading="lazy"><span class="photo-index">02 / ПЕРВЫЙ ПОЛЁТ</span><span class="image-expand" aria-hidden="true">⤢</span></button><div class="equipment-card-copy"><h3>Геймпад или клавиатура</h3><p>Привычные устройства для первых тренировок. Реализована поддержка USB/Bluetooth-контроллеров; в проекте проверена работа с геймпадом DEXP.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-section" id="project" aria-labelledby="project-title"><div class="container project-grid">
+      <div><span class="eyebrow">05 / ПРОЕКТ И КОМАНДА</span><h2 id="project-title">Создаём пространство<br>для развития<br><em>беспилотной авиации.</em></h2><p>UAV SIM разрабатывает ООО «АвиаСим Плюс». Проект посвящён созданию симулятора БПЛА с реалистичной физикой полёта и моделированием окружающей среды.</p><p>Наши направления — подготовка операторов, виртуальные испытания и инструменты исследования автономного управления. Следующий шаг — развитие модуля ИИ по мере накопления полётных данных.</p><div class="project-person"><span class="person-monogram" aria-hidden="true">ДВ</span><div><strong>Даниил Волков</strong><span>Генеральный директор ООО «АвиаСим Плюс»</span></div></div></div>
+      <figure class="project-photo"><img src="assets/development.webp" alt="Даниил Волков за работой над 3D-моделью БПЛА и симулятором UAV SIM" width="1280" height="960" loading="lazy"><figcaption><span class="status-dot"></span> ОТ МОДЕЛИ — К ПОЛЁТУ <span>СТАВРОПОЛЬ / 2026</span></figcaption></figure>
+    </div></section>
+
+    <section class="contact-section container" id="contact" aria-labelledby="contact-title"><div><span class="eyebrow">ОТКРЫТЫ К ДИАЛОГУ</span><h2 id="contact-title">Обсудим ваш<br>сценарий применения?</h2><p>Для учебных центров, вузов, пилотов и разработчиков.<br>Напишите нам о задачах обучения или виртуальных испытаний.</p></div><div class="contact-actions"><a class="button button-orange" href="mailto:ooo-aviasim-plus@mail.ru">Написать команде <span aria-hidden="true">↗</span></a><a class="contact-email" href="mailto:ooo-aviasim-plus@mail.ru">ooo-aviasim-plus@mail.ru</a></div></section>
+
+    <section class="support-section" aria-labelledby="support-title"><div class="container support-grid"><div class="support-logos"><a href="https://fasie.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/fasie-logo.png" alt="Фонд содействия инновациям" width="240" height="100" loading="lazy"></a><a href="https://univertechpred.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/platform-logo.png" alt="Платформа университетского технологического предпринимательства" width="240" height="100" loading="lazy"></a></div><div><h2 id="support-title" class="eyebrow">ПРОЕКТ ПРИ ПОДДЕРЖКЕ</h2><p>Проект реализован при поддержке Фонда содействия инновациям в рамках программы «Студенческий стартап» мероприятия «Платформа университетского технологического предпринимательства» федерального проекта «Технологии».</p><span class="grant-reference">Договор № 1014ГССС27/107293 от 16.10.2025</span></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="#">UAV<span class="brand-light">SIM</span></a><div><strong>ООО «АвиаСим Плюс»</strong><span>ИНН 2635267522 · ОГРН 1252600014787</span></div><span class="copyright">© 2026 UAV SIM</span><a class="back-top" href="#">Наверх ↑</a></div></footer>
+
+  <dialog id="gallery-dialog" class="gallery-dialog" aria-label="Галерея UAV SIM"><div class="gallery-inner"><button class="gallery-close" type="button" aria-label="Закрыть изображение">×</button><img id="gallery-image" src="assets/caucasus.webp" alt=""><div class="gallery-footer"><p id="gallery-caption"></p><span id="gallery-counter"></span><button id="gallery-prev" type="button" aria-label="Предыдущее изображение">←</button><button id="gallery-next" type="button" aria-label="Следующее изображение">→</button></div></div></dialog>
+</body>
+</html>
